@@ -1,6 +1,6 @@
 {
   "name": "chunk-manifest-webpack2-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Allows exporting a manifest that maps chunk ids to their output files, instead of keeping the mapping inside the webpack2 bootstrap.",
   "main": "lib/ChunkManifestPlugin.js",
   "scripts": {
