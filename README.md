@@ -1,4 +1,4 @@
-# chunk-manifest-webpack-plugin
+# chunk-manifest-webpack2-plugin
 
 Allows exporting a JSON file that maps chunk ids to their resulting asset files. Webpack can then read this mapping, assuming it is provided somehow on the client, instead of storing a mapping (with chunk asset hashes) in the bootstrap script, which allows to actually leverage long-term caching.
 
@@ -11,14 +11,14 @@ https://webpack.js.org/how-to/cache/ and https://medium.com/@okonetchnikov/long-
 Install via npm:
 
 ```shell
-npm install chunk-manifest-webpack-plugin
+npm install chunk-manifest-webpack2-plugin
 ```
 
 And then require and provide to webpack:
 
 ```javascript
 // in webpack.config.js or similar
-var ChunkManifestPlugin = require('chunk-manifest-webpack-plugin');
+var ChunkManifestPlugin = require('chunk-manifest-webpack2-plugin');
 
 module.exports = {
   // your config values here
